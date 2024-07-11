@@ -1,0 +1,16 @@
+:root {
+  /* COLOR */
+  --clr-primary: 300 43% 22%;
+  --clr-accent: 333 80% 67%;
+  --clr-primary-variant: 303 10% 53%;
+  --clr-secondary: 300 24% 96%;
+  --clr-bg: 0 0% 100%;
+
+  /* FONT FAMILY */
+  --ff-league-spartan: "League Spartan", sans-serif;
+
+  /* FONT WEIGHT */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+}
