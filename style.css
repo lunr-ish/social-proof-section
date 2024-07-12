@@ -35,6 +35,24 @@ body {
   padding: 1.5rem;
   background: hsl(var(--clr-bg));
   color: hsl(var(--clr-primary));
+  position: relative;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+body::before {
+  background: url("./images/bg-pattern-top-mobile.svg") no-repeat;
+}
+
+body::after {
+  background: url("./images/bg-pattern-bottom-mobile.svg") no-repeat bottom
+    right;
 }
 
 ul {
@@ -162,6 +180,16 @@ main {
   font-weight: var(--fw-medium);
   line-height: 1.35;
   letter-spacing: 0.01rem;
+}
+
+@media (min-width: 23.5rem) {
+  body::before {
+    background-image: url("./images/bg-pattern-top-desktop.svg");
+  }
+
+  body::after {
+    background-image: url("./images/bg-pattern-bottom-desktop.svg");
+  }
 }
 
 @media (min-width: 64rem) {
