@@ -15,6 +15,8 @@
   --fw-bold: 700;
 }
 
+/* RESET */
+
 *,
 *::before,
 *::after {
@@ -28,6 +30,11 @@
 body {
   width: 100%;
   min-height: 100vh;
+  font-family: var(--ff-league-spartan);
+  font-weight: var(--fw-regular);
+  padding: 1.5rem;
+  background: hsl(var(--clr-bg));
+  color: hsl(var(--clr-primary));
 }
 
 ul {
