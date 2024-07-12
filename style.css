@@ -86,3 +86,33 @@ header {
   color: hsl(var(--clr-primary-variant));
   margin-top: 1.5rem;
 }
+
+/* REVIEWS */
+
+.reviews {
+  margin-block: 2.5rem 3.0625rem;
+}
+
+.reviews__item {
+  background: hsl(var(--clr-secondary));
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.reviews__item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.reviews__stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.reviews__content {
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.031rem;
+  margin-top: 1rem;
+}
