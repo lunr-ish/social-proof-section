@@ -77,11 +77,11 @@ header {
   font-size: 2.5rem;
   font-weight: var(--fw-bold);
   line-height: 0.8;
-  letter-spacing: -1px;
+  letter-spacing: -0.0625rem;
 }
 
 .description {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.4;
   color: hsl(var(--clr-primary-variant));
   margin-top: 1.5rem;
