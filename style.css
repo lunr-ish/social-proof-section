@@ -177,7 +177,7 @@ main {
   /* HEADER */
 
   .header {
-    max-width: 28.44rem;
+    max-width: 27.8125rem;
     text-align: left;
   }
 
@@ -196,6 +196,19 @@ main {
   /* REVIEWS */
 
   .reviews {
+    margin: 0;
+    margin-left: 4.656rem;
+  }
+
+  .reviews__item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.25rem 2rem;
+  }
+
+  .reviews__content {
+    letter-spacing: 0.028rem;
     margin: 0;
   }
 
