@@ -205,6 +205,15 @@ main {
     align-items: center;
     gap: 2rem;
     padding: 1.25rem 2rem;
+    position: relative;
+  }
+
+  .reviews__item:nth-child(1) {
+    right: 6rem;
+  }
+
+  .reviews__item:nth-child(2) {
+    right: 3rem;
   }
 
   .reviews__content {
