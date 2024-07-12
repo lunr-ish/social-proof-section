@@ -236,4 +236,16 @@ main {
   .testimonials__item:not(:last-child) {
     margin: 0;
   }
+
+  .testimonials__item {
+    position: relative;
+  }
+
+  .testimonials__item:nth-child(2) {
+    top: 1rem;
+  }
+
+  .testimonials__item:nth-child(3) {
+    top: 2rem;
+  }
 }
