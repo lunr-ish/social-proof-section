@@ -54,6 +54,11 @@ h3 {
   overflow-wrap: break-word;
 }
 
+main {
+  max-width: 25rem;
+  margin-inline: auto;
+}
+
 /* UTILITIES */
 
 .sr-only:not(:focus):not(:active) {
