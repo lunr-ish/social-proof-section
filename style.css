@@ -56,7 +56,7 @@ h3 {
 
 main {
   max-width: 25rem;
-  margin-inline: auto;
+  margin: 5rem auto 0;
 }
 
 /* UTILITIES */
@@ -75,7 +75,7 @@ main {
 
 .header {
   text-align: center;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 .main-heading {
@@ -162,5 +162,56 @@ main {
 .testimonials__content {
   font-weight: var(--fw-medium);
   line-height: 1.35;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.01rem;
+}
+
+@media (min-width: 64rem) {
+  main {
+    max-width: 69.375rem;
+    margin-top: 7.375rem;
+    display: grid;
+    gap: 4.4375rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* HEADER */
+
+  .header {
+    max-width: 28.44rem;
+    text-align: left;
+  }
+
+  .main-heading {
+    font-size: 3.5rem;
+    line-height: 0.85;
+    letter-spacing: -0.125rem;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin-top: 1.625rem;
+  }
+
+  /* REVIEWS */
+
+  .reviews {
+    margin: 0;
+  }
+
+  /* TESTIMONIALS */
+
+  .testimonials {
+    grid-column: 1 / -1;
+  }
+
+  .testimonials__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+  }
+
+  .testimonials__item:not(:last-child) {
+    margin: 0;
+  }
 }
