@@ -75,7 +75,6 @@ main {
 
 .header {
   text-align: center;
-  /* margin-top: 5rem; */
 }
 
 .main-heading {
@@ -170,7 +169,7 @@ main {
     max-width: 69.375rem;
     margin-top: 7.375rem;
     display: grid;
-    gap: 4.4375rem;
+    gap: 6.4375rem;
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -197,7 +196,7 @@ main {
 
   .reviews {
     margin: 0;
-    margin-left: 4.656rem;
+    margin-left: 1.157rem;
   }
 
   .reviews__item {
@@ -241,11 +240,11 @@ main {
     position: relative;
   }
 
-  .testimonials__item:nth-child(2) {
-    top: 1rem;
+  .testimonials__item:nth-child(1) {
+    bottom: 2rem;
   }
 
-  .testimonials__item:nth-child(3) {
-    top: 2rem;
+  .testimonials__item:nth-child(2) {
+    bottom: 1rem;
   }
 }
