@@ -116,3 +116,46 @@ header {
   letter-spacing: 0.031rem;
   margin-top: 1rem;
 }
+
+/* TESTIMONIALS */
+
+.testimonials__item {
+  background: hsl(var(--clr-primary));
+  color: hsl(var(--clr-secondary));
+  padding: 2.5rem 2rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.testimonials__item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.testimonials__user {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.0625rem;
+  margin-bottom: 1.7rem;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.testimonials__user-name {
+  font-weight: var(--fw-bold);
+  margin-bottom: 0.25rem;
+}
+
+.testimonials__user-status {
+  color: hsl(var(--clr-accent));
+}
+
+.testimonials__content {
+  font-weight: var(--fw-medium);
+  line-height: 1.35;
+  letter-spacing: 0.15px;
+}
