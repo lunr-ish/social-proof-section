@@ -65,3 +65,24 @@ h3 {
   white-space: nowrap;
   width: 1px;
 }
+
+/* HEADER */
+
+header {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: var(--fw-bold);
+  line-height: 0.8;
+  letter-spacing: -1px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.4;
+  color: hsl(var(--clr-primary-variant));
+  margin-top: 1.5rem;
+}
